@@ -1,8 +1,6 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "amplifytodo6f23c9c1_identitypool_6f23c9c1",
-    "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "amplif6f23c9c1",
     "userPoolName": "amplifytodo6f23c9c1_userpool_6f23c9c1",
     "autoVerifiedAttributes": [
@@ -14,8 +12,8 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Your verification code",
-    "emailVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "shahzain",
+    "emailVerificationMessage": "here is your code {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
@@ -35,12 +33,36 @@
     "userpoolClientSetAttributes": false,
     "sharedId": "6f23c9c1",
     "resourceName": "amplifytodo6f23c9c1",
-    "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
+    "authSelections": "userPoolOnly",
+    "useDefault": "manual",
     "triggers": {},
-    "userPoolGroupList": [],
+    "userPoolGroupList": [
+      "dev"
+    ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "useEnabledMfas": true
+    "useEnabledMfas": true,
+    "authRoleArn": {
+      "Fn::GetAtt": [
+        "AuthRole",
+        "Arn"
+      ]
+    },
+    "unauthRoleArn": {
+      "Fn::GetAtt": [
+        "UnauthRole",
+        "Arn"
+      ]
+    },
+    "breakCircularDependency": true,
+    "dependsOn": [],
+    "userPoolGroups": true,
+    "adminQueries": false,
+    "hostedUI": false,
+    "authProviders": [],
+    "parentStack": {
+      "Ref": "AWS::StackId"
+    },
+    "permissions": []
   }
 }

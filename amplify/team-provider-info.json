@@ -13,6 +13,14 @@
     },
     "categories": {
       "auth": {
+        "amplifytodo6f23c9c1": {},
+        "userPoolGroups": {}
+      }
+    }
+  },
+  "prod": {
+    "categories": {
+      "auth": {
         "amplifytodo6f23c9c1": {}
       }
     }
