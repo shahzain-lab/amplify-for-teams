@@ -36,6 +36,11 @@
       "StackName": "amplify-amplifytodo-prod-64415",
       "StackId": "arn:aws:cloudformation:us-east-1:146460090471:stack/amplify-amplifytodo-prod-64415/620e6240-1ccc-11ee-b357-0a99ea7c51ad",
       "AmplifyAppId": "d2pnmb9hkff96l"
+    },
+    "categories": {
+      "api": {
+        "amplifytodo": {}
+      }
     }
   }
 }
