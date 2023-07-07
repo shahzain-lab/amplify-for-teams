@@ -1,36 +1,24 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyenv-dev-223620-authRole",
-      "UnauthRoleArn": "arn:aws:iam::596109967064:role/amplify-amplifyenv-dev-223620-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::596109967064:role/amplify-amplifyenv-dev-223620-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplifyenv-dev-223620-deployment",
-      "UnauthRoleName": "amplify-amplifyenv-dev-223620-unauthRole",
-      "StackName": "amplify-amplifyenv-dev-223620",
-      "StackId": "arn:aws:cloudformation:us-east-1:596109967064:stack/amplify-amplifyenv-dev-223620/54563250-c2f3-11ed-9d0e-0a29fb5165e9",
-      "AmplifyAppId": "d32gng2aaamjsj"
-    },
-    "categories": {
-      "auth": {
-        "amplifyenv220070fa": {}
-      }
-    }
-  },
   "prod": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyenv-prod-51825-authRole",
-      "UnauthRoleArn": "arn:aws:iam::146460090471:role/amplify-amplifyenv-prod-51825-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::146460090471:role/amplify-amplifyenv-prod-51825-authRole",
+      "AuthRoleName": "amplify-amplifyenv-prod-60232-authRole",
+      "UnauthRoleArn": "arn:aws:iam::146460090471:role/amplify-amplifyenv-prod-60232-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::146460090471:role/amplify-amplifyenv-prod-60232-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplifyenv-prod-51825-deployment",
-      "UnauthRoleName": "amplify-amplifyenv-prod-51825-unauthRole",
-      "StackName": "amplify-amplifyenv-prod-51825",
-      "StackId": "arn:aws:cloudformation:us-east-1:146460090471:stack/amplify-amplifyenv-prod-51825/64c0f590-1cc0-11ee-be9c-0a4d37bf4495"
+      "DeploymentBucketName": "amplify-amplifyenv-prod-60232-deployment",
+      "UnauthRoleName": "amplify-amplifyenv-prod-60232-unauthRole",
+      "StackName": "amplify-amplifyenv-prod-60232",
+      "StackId": "arn:aws:cloudformation:us-east-1:146460090471:stack/amplify-amplifyenv-prod-60232/95cebb80-1cc6-11ee-b4d5-0ac7f090d8a5"
     },
     "categories": {
-      "auth": {
-        "amplifyenv220070fa": {}
+      "function": {
+        "amplifyenv50505722": {
+          "deploymentBucketName": "amplify-amplifyenv-prod-60232-deployment",
+          "s3Key": "amplify-builds/amplifyenv50505722-55572f50346b694d7974-build.zip"
+        }
+      },
+      "api": {
+        "api76ee6181": {}
       }
     }
   }
