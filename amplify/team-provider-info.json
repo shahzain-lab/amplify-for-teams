@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifytodo-dev-220844",
       "StackId": "arn:aws:cloudformation:us-east-1:146460090471:stack/amplify-amplifytodo-dev-220844/3a4816f0-0428-11ee-a822-0eed62dd9c01",
       "AmplifyAppId": "d2pnmb9hkff96l"
+    },
+    "categories": {
+      "auth": {
+        "amplifytodo6f23c9c1": {}
+      }
     }
   }
 }
